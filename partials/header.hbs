@@ -1,0 +1,21 @@
+{{! The big featured header }}
+<header id="header">
+    <nav class="header-nav" {{#if @blog.cover}}style="background-image:url({{@blog.cover}}){{/if}}">
+      <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
+        
+      <!--Change this to customize the navigation-->
+      <div class="links-wrapper clearfix">
+        <ul id="links" class="links">
+            <li><a href="{{@blog.url}}">Home</a></li>
+            <li><a href="/contact">Contact Me</a></li>
+       
+         <form id="search" action="/search-results" method="get">
+    <input name="q" placeholder="Search.." value="" required>
+  <input type="submit" value="Search">
+</form>
+             </ul>
+
+      </div>
+    </nav>
+
+</header>
