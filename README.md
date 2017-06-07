@@ -1,4 +1,4 @@
-# My Simple Theme 2017 - seanoneill.me
+# My Simple Theme
 
 # Setup - Search 
 For the search bar to work you need to create a static page called "search-results" in the Ghost dashboard and add the code that you got from google custom search.
